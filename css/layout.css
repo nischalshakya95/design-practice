@@ -70,14 +70,14 @@
 
 .navigation-menu {
     margin: 5px 5px 0 190px;
-    width: 100px;
+    width: 115px;
     height: 20px;
     float: left;
 }
 
 .navigation-menu-right {
-    margin: 5px 5px 0 10px;
-    width: 100px;
+    margin: 5px 5px 0 15px;
+    width: 90px;
     height: 20px;
     float: left;
 }
@@ -92,6 +92,70 @@
 .friend-request {
     margin: 5px 200px 5px 5px;
     width: 95px;
+    height: 20px;
+    float: left;
+}
+
+.column {
+    margin: 10px 5px 5px 5px;
+    float: left;
+    padding: 10px;
+    height: 410px;
+}
+
+.left {
+    margin-left: 200px;
+    width: 16%;
+}
+
+.right {
+    width: 48%
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.recent-searches {
+    margin: auto;
+    width: 210px;
+    height: 300px;
+    float: left;
+}
+
+.recent-searches-list {
+    margin: 5px 5px 5px 5px;
+    width: 200px;
+    height: 20px;
+    float: left;
+}
+
+.column-content-left {
+    margin: auto;
+    width: 410px;
+    height: 410px;
+    float: left;
+}
+
+.content-header {
+    margin: 5px 5px 5px 5px;
+    width: 395px;
+    height: 100px;
+    float: left;
+}
+
+.column-content-right {
+    margin: 0 5px 7px 15px;
+    width: 190px;
+    height: 410px;
+    float: left;
+}
+
+.video-tutorial-list {
+    margin: 5px 5px 5px 5px;
+    width: 175px;
     height: 20px;
     float: left;
 }
