@@ -11,7 +11,7 @@
 }
 
 .header {
-    background-color:  #7dd9e8;
+    /* background-color:  #7dd9e8; */
     height: 125px;
     min-width: 962px;
     max-width: 1348px;
@@ -116,11 +116,18 @@ ul#horizontal-list li{
 }
 
 .menu-options {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-left: -235px;
-    padding: 11px 11px;
+    padding: 11px 0;
     float: left;
-    line-height: 15px;    
+    line-height: 15px;   
+    width: 500px; 
+}
+
+.menu-options ul li {
+    float: left;
+    margin: auto;
+    padding: 0px 30px 0 0;
 }
 
 ul#menu-options li{
@@ -130,5 +137,5 @@ ul#menu-options li{
 .menu-options ul li a {
     font-size : 13px;
 }
-  
+
 
