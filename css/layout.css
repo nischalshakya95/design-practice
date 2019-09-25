@@ -8,18 +8,17 @@
 .main-wrapper {
     height: 837px;
     min-width: 962px;
-    float:left;
 }
 
 .header {
-    background-color:  #7dd9e8;
+    /* background-color:  #7dd9e8; */
     height: 125px;
     min-width: 962px;
     max-width: 1348px;
 }
 
 .top-header {
-    background-color: #7dd9e8;
+    /* background-color: #7dd9e8; */
     height:85px;
     margin:0px auto;
 }
@@ -28,9 +27,33 @@
     background-image: url("../images/logo.png");
     background-repeat: no-repeat;
     background-position: center;
+    float: left;
     height: 90px;
     width: 250px;
-    margin-left: 250px;
+    margin-left: 190px;
+}
+
+.search-input-length {
+    background-color: #caeff7;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height : 15px;
+    font-size: 10px;
+    float: left;
+    padding-left: 10px;
+    margin: 40px 0 30px 12px;
+    width: 250px;
+}
+
+.search-logo {
+    background-image: url("../images/search.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    float:left;
+    height: 19px;
+    margin-top: 40px;
+    margin-left: 0;
+    width: 35px;
 }
 
 .bottom-header{
