@@ -11,14 +11,14 @@
 }
 
 .header {
-    /* background-color:  #7dd9e8; */
+    background-color:  #7dd9e8;
     height: 125px;
     min-width: 962px;
     max-width: 1348px;
 }
 
 .top-header {
-    /* background-color: #7dd9e8; */
+    background-color: #7dd9e8;
     height:85px;
     margin:0px auto;
 }
@@ -33,33 +33,102 @@
     margin-left: 190px;
 }
 
-.search-input-length {
-    background-color: #caeff7;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    height : 15px;
-    font-size: 10px;
+.search-wrapper {
+    width : 330px;
     float: left;
-    padding-left: 10px;
-    margin: 40px 0 30px 12px;
-    width: 250px;
+    padding: 20px 24px 9px 14px;
 }
 
-.search-logo {
-    background-image: url("../images/search.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    float:left;
-    height: 19px;
-    margin-top: 40px;
-    margin-left: 0;
-    width: 35px;
+.search-input {
+    background: url("../images/search-bar.png") no-repeat;
+    float: left;
+    margin-top: 20px;
+}
+
+.search-input input {
+    width: 260px;
+    background-color: transparent;
+    border:0 solid;
+    font-size: 11px;
+    padding: 3px 8px;
+}
+
+.search-button {
+    background: url("../images/search-button.png") no-repeat;
+    float: right;
+    width: 53px;
+    margin-top: 20px;
+}
+
+.search-button a {
+    font-size: 9px;
+    color: #ffff;
+    display: block;
+    padding: 5px 5px 5px 8px;
+}
+
+.user-nav-info {
+    margin: 20px 0 0 150px;
+    height: 52px;
+    width: 180px;
+    float: left;
+    font-weight: bold;
+}
+
+.user-name-wrapper {
+    margin-top: 2px;
+    margin-left: 90px;
+    width: 86px;
+    height: 20px;
+    float: left;
+}
+
+.user-name {
+    float: right;
+    display: table;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0px 3px 3px 0px;
+}
+
+.user-nav-wrapper {
+    margin-top: 25px;
+    margin-right: 13px;
+}
+
+.user-nav {
+    float: right;
+    line-height: 15px;
+    margin-right: -3px;
+}
+
+ul#horizontal-list li{
+    display: inline;
+}
+
+.user-nav ul li a{
+    font-size: 13px;
 }
 
 .bottom-header{
     background-color: #f5f5f5;
     height: 40px;
-    margin: 0px auto;
+}
+
+.menu-options {
+    border: 1px solid red;
+    margin-left: -235px;
+    padding: 11px 11px;
+    float: left;
+    line-height: 15px;    
+}
+
+ul#menu-options li{
+    display: inline;
+}
+
+.menu-options ul li a {
+    font-size : 13px;
 }
   
 
