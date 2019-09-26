@@ -232,10 +232,24 @@ ul#tab-contents li {
     width: 469px;
 }
 
+.image-wrapper {
+    background-image: url("../images/user-frame.png");
+    float: left;
+    height: 70px;
+    width: 70px;
+    position: relative;
+}
+
+.post-wrapper {
+    margin-left: 10px; 
+    width: 386px;
+    height: 64px;
+    float: right;
+}
+
 .user-status {
     padding: 15px 0px;
     border-bottom:1px solid #d8d8d8;
-    position: relative;
     height: 80px;
 }
 
@@ -243,13 +257,15 @@ ul#tab-contents li {
     float: left;
 }
 
-.frame {
-    background-image: url("../images/user-frame.png");
-    width: 60px;
-    position: absolute;
-    
-}
-
 .user-image {
     width: 60px;
+}
+
+.post-wrapper ul li {
+    display: inline;
+}
+
+.footer-wrapper {
+    width: 100%;
+    background-color: #727272;
 }
