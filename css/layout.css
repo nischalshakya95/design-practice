@@ -1,5 +1,5 @@
 .background-image {
-    background-image: url("../images/tutangle.jpg");
+    /* background-image: url("../images/tutangle.jpg"); */
     background-repeat: no-repeat;
     background-position: center;
     height: 837px;
@@ -138,4 +138,54 @@ ul#menu-options li{
     font-size : 13px;
 }
 
+.body-wrapper {
+    padding: 15px 0px 40px 0px;
+    height: 655px;
+    float: left;
+    width: 1340px;
+}
 
+.container {
+    width: 950px;
+    height: 600px;
+    padding: 5px 3px;
+    margin-left: 200px;
+    float: left;
+}
+
+.left-container {
+    float: left;
+    padding-top: 6px;
+    height: 600px;
+    width: 194px;
+}
+
+.recent-search-first {
+    float: left;
+    width: 192px;
+}
+
+.recent-search {
+    padding: 0px 0px;
+}
+
+.recent-search-second {
+    float: left;
+    width: 192px;
+}
+
+.right-container {
+    /* border: 1px solid red; */
+    float: right;
+    height: 500px;
+    width: 730px;
+    margin-right: 10px;
+    padding-top: 6px;
+    padding-right: 10px;
+}
+
+.right-container-right {
+    float: right;
+    width: 194px;
+    height: 450px;
+}

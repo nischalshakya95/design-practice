@@ -32,3 +32,34 @@ ul#user-notification-list li {
 .user-notification ul li.enabled {
     color: #000;
 }
+
+.box-list ul {
+    width: 192px;
+    font-size: 11px;
+    background-color: #f5f5f5;
+}
+
+.box-list ul li {
+    padding: 0 3px;
+    display: table;
+}
+
+.recent-search ul li a:first-child {
+    float: left;
+    width: 120px;
+    padding: 10px 5px;
+}
+
+.box-list ul li:hover{
+	background-color: #fff;
+}
+
+.recent-search ul li a:last-child img {
+    float: right;
+    padding: 10px;
+}
+
+.list-video-tutorial ul li {
+    padding: 5px 10px;
+    height: 30px;
+}

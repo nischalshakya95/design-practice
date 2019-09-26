@@ -12,3 +12,12 @@ a {
 html {
     font-size: 16px;
 }
+
+.block-title {
+    font-size: 15xpx;
+    height: 42px;
+    line-height: 42px;
+    color: white;
+    background-color: #2fc1da;
+    padding-left: 12px;
+}
