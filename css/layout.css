@@ -1,271 +1,284 @@
+@media only screen and (min-width: 600px) {
+  .search-wrapper {
+    /* display: none; */
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  
+}
+
+@media only screen and (min-width: 992px) {
+  
+}
+
 .background-image {
-    /* background-image: url("../images/tutangle.jpg"); */
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 837px;
+  /* background-image: url("../images/tutangle.jpg"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 837px;
 }
 
 .main-wrapper {
-    height: 837px;
-    min-width: 962px;
+  height: 837px;
+  min-width: 962px;
+  width: 100%;
 }
 
 .header {
-    /* background-color:  #7dd9e8; */
-    height: 125px;
-    min-width: 962px;
-    max-width: 1348px;
+  height: 125px;
+  min-width: 962px;
+  max-width: 1348px;
 }
 
 .top-header {
-    background-color: #7dd9e8;
-    height:85px;
-    margin:0px auto;
+  background-color: #7dd9e8;
+  height: 85px;
+  margin: 0px auto;
 }
 
 .top-header-logo {
-    background-image: url("../images/logo.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    float: left;
-    height: 90px;
-    width: 250px;
-    margin-left: 190px;
+  background-image: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+  height: 90px;
+  width: 250px;
+  margin-left: 190px;
 }
 
 .search-wrapper {
-    width : 330px;
-    float: left;
-    padding: 20px 24px 9px 14px;
+  /* width: 330px; */
+  float: left;
+  padding: 20px 24px 9px 14px;
 }
 
 .search-input {
-    background: url("../images/search-bar.png") no-repeat;
-    float: left;
-    margin-top: 20px;
+  background: url("../images/search-bar.png") no-repeat;
+  float: left;
+  margin-top: 20px;
 }
 
 .search-input input {
-    width: 260px;
-    background-color: transparent;
-    border:0 solid;
-    font-size: 11px;
-    padding: 3px 8px;
+  width: 260px;
+  background-color: transparent;
+  border: 0 solid;
+  font-size: 11px;
+  padding: 3px 8px;
 }
 
 .search-button {
-    background: url("../images/search-button.png") no-repeat;
-    float: right;
-    width: 53px;
-    margin-top: 20px;
+  background: url("../images/search-button.png") no-repeat;
+  float: right;
+  width: 53px;
+  margin-top: 20px;
 }
 
 .search-button a {
-    font-size: 9px;
-    color: #ffff;
-    display: block;
-    padding: 5px 5px 5px 8px;
+  font-size: 9px;
+  color: #ffff;
+  display: block;
+  padding: 5px 5px 5px 8px;
 }
 
 .user-nav-info {
-    margin: 20px 0 0 150px;
-    height: 52px;
-    width: 180px;
-    float: left;
-    font-weight: bold;
+  margin: 20px 0 0 150px;
+  height: 52px;
+  width: 180px;
+  float: left;
+  font-weight: bold;
 }
 
 .user-name-wrapper {
-    margin-top: 2px;
-    margin-left: 90px;
-    width: 86px;
-    height: 20px;
-    float: left;
+  margin-top: 2px;
+  margin-left: 90px;
+  width: 86px;
+  height: 20px;
+  float: left;
 }
 
 .user-name {
-    float: right;
-    display: table;
-    font-size: 15px;
-    line-height: 20px;
-    margin: 0px 3px 3px 0px;
+  float: right;
+  display: table;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 0px 3px 3px 0px;
 }
 
 .user-nav-wrapper {
-    margin-top: 25px;
-    margin-right: 13px;
+  margin-top: 25px;
+  margin-right: 13px;
 }
 
 .user-nav {
-    float: right;
-    line-height: 15px;
-    margin-right: -3px;
+  float: right;
+  line-height: 15px;
+  margin-right: -3px;
 }
 
-ul#horizontal-list li{
-    display: inline;
+ul#horizontal-list li {
+  display: inline;
 }
 
-.user-nav ul li a{
-    font-size: 13px;
+.user-nav ul li a {
+  font-size: 13px;
 }
 
-.bottom-header{
-    background-color: #f5f5f5;
-    height: 40px;
+.bottom-header {
+  background-color: #f5f5f5;
+  height: 40px;
 }
 
 .menu-options {
-    /* border: 1px solid red; */
-    margin-left: -235px;
-    padding: 11px 0;
-    float: left;
-    line-height: 15px;   
-    width: 500px; 
+  margin-left: -545px;
+  padding: 11px 0;
+  float: left;
+  line-height: 15px;
+  width: 500px;
 }
 
 .menu-options ul li {
-    float: left;
-    margin: auto;
-    padding: 0px 30px 0 0;
+  float: left;
+  margin: auto;
+  padding: 0px 30px 0 0;
 }
 
-ul#menu-options li{
-    display: inline;
+ul#menu-options li {
+  display: inline;
 }
 
 .menu-options ul li a {
-    font-size : 13px;
+  font-size: 13px;
 }
 
 .body-wrapper {
-    padding: 15px 0px 40px 0px;
-    height: 655px;
-    float: left;
-    width: 1340px;
+  padding: 15px 0px 40px 0px;
+  height: 655px;
+  float: left;
+  width: 1340px;
 }
 
 .container {
-    width: 950px;
-    height: 600px;
-    padding: 5px 3px;
-    margin-left: 200px;
-    float: left;
+  width: 950px;
+  height: 600px;
+  padding: 5px 3px;
+  margin-left: 200px;
+  float: left;
 }
 
 .left-container {
-    float: left;
-    padding-top: 1px;
-    height: 600px;
-    width: 192px;
-    background-color: #f5f5f5;
+  float: left;
+  padding-top: 1px;
+  height: 600px;
+  width: 192px;
+  background-color: #f5f5f5;
 }
 
 .recent-search-first {
-    float: left;
-    width: 192px;
+  float: left;
+  width: 192px;
 }
 
 .recent-search {
-    padding: 0px 0px;
+  padding: 0px 0px;
 }
 
 .recent-search-second {
-    float: left;
-    width: 192px;
+  float: left;
+  width: 192px;
 }
 
 .right-container {
-    float: right;
-    height: 500px;
-    width: 730px;
-    margin-right: 8px;
-    padding-top: 2px;
-    padding-right: 10px;
+  float: right;
+  height: 500px;
+  width: 730px;
+  margin-right: 8px;
+  padding-top: 2px;
+  padding-right: 10px;
 }
 
 .main {
-    float: left;
-    height: 650px;
-    margin-left: 15px;
-    padding-left: 10px;
-    width: 480px;
+  float: left;
+  height: 650px;
+  margin-left: 15px;
+  padding-left: 10px;
+  width: 480px;
 }
 
 .tab-division-holder {
-    height: 600px;
-    margin-top: 40px;
-    padding: 10px 0px;
-    width: 471px;   
+  height: 600px;
+  margin-top: 40px;
+  padding: 10px 0px;
+  width: 471px;
 }
 
 .tab-wrapper {
-    height: 66px;
+  height: 66px;
 }
 
 .entries-wrapper {
-    float: left;
+  float: left;
 }
 
 .right-container-right {
-    float: right;
-    background-color: #f5f5f5;
-    width: 194px;
-    height: 600px;
+  float: right;
+  background-color: #f5f5f5;
+  width: 194px;
+  height: 600px;
 }
 
 ul#tab-headings li {
-    display: inline;
-    padding: 0 80px;
+  display: inline;
+  padding: 0 80px;
 }
 
 ul#tab-contents li {
-    display: inline;
+  display: inline;
 }
 
 .tab-options-content {
-    border-top: 2px solid #7dd9e8;
+  border-top: 2px solid #7dd9e8;
 }
 
 .all-members-wrapper {
-    height: 549px;
-    width: 469px;
+  height: 549px;
+  width: 469px;
 }
 
 .image-wrapper {
-    background-image: url("../images/user-frame.png");
-    float: left;
-    height: 70px;
-    width: 70px;
-    position: relative;
+  background-image: url("../images/user-frame.png");
+  float: left;
+  height: 70px;
+  width: 70px;
+  position: relative;
 }
 
 .post-wrapper {
-    margin-left: 10px; 
-    width: 386px;
-    height: 64px;
-    float: right;
+  margin-left: 10px;
+  width: 386px;
+  height: 64px;
+  float: right;
 }
 
 .user-status {
-    padding: 15px 0px;
-    border-bottom:1px solid #d8d8d8;
-    height: 80px;
+  padding: 15px 0px;
+  border-bottom: 1px solid #d8d8d8;
+  height: 80px;
 }
 
 .user {
-    float: left;
+  float: left;
 }
 
 .user-image {
-    width: 60px;
+  width: 60px;
 }
 
 .post-wrapper ul li {
-    display: inline;
+  display: inline;
 }
 
 .footer-wrapper {
-    width: 100%;
-    background-color: #727272;
+  width: 100%;
+  background-color: #727272;
 }
