@@ -155,9 +155,10 @@ ul#menu-options li{
 
 .left-container {
     float: left;
-    padding-top: 6px;
+    padding-top: 1px;
     height: 600px;
-    width: 194px;
+    width: 192px;
+    background-color: #f5f5f5;
 }
 
 .recent-search-first {
@@ -175,17 +176,80 @@ ul#menu-options li{
 }
 
 .right-container {
-    /* border: 1px solid red; */
     float: right;
     height: 500px;
     width: 730px;
-    margin-right: 10px;
-    padding-top: 6px;
+    margin-right: 8px;
+    padding-top: 2px;
     padding-right: 10px;
+}
+
+.main {
+    float: left;
+    height: 650px;
+    margin-left: 15px;
+    padding-left: 10px;
+    width: 480px;
+}
+
+.tab-division-holder {
+    height: 600px;
+    margin-top: 40px;
+    padding: 10px 0px;
+    width: 471px;   
+}
+
+.tab-wrapper {
+    height: 66px;
+}
+
+.entries-wrapper {
+    float: left;
 }
 
 .right-container-right {
     float: right;
+    background-color: #f5f5f5;
     width: 194px;
-    height: 450px;
+    height: 600px;
+}
+
+ul#tab-headings li {
+    display: inline;
+    padding: 0 80px;
+}
+
+ul#tab-contents li {
+    display: inline;
+}
+
+.tab-options-content {
+    border-top: 2px solid #7dd9e8;
+}
+
+.all-members-wrapper {
+    height: 549px;
+    width: 469px;
+}
+
+.user-status {
+    padding: 15px 0px;
+    border-bottom:1px solid #d8d8d8;
+    position: relative;
+    height: 80px;
+}
+
+.user {
+    float: left;
+}
+
+.frame {
+    background-image: url("../images/user-frame.png");
+    width: 60px;
+    position: absolute;
+    
+}
+
+.user-image {
+    width: 60px;
 }
